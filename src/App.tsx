@@ -1,10 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import { SideBar } from './components/SideBar'
 import { Content } from './components/Content'
 
 import './styles/global.scss'
-import { api } from './services/api'
 
 export interface GenreResponseProps {
   id: number

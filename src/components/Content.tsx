@@ -1,7 +1,8 @@
 import { GenreResponseProps, MovieProps } from '../App'
-import '../styles/content.scss'
 import { Header } from './Header'
 import { MovieCard } from './MovieCard'
+
+import '../styles/content.scss'
 
 interface ContentProps {
   selectedGenre: GenreResponseProps
